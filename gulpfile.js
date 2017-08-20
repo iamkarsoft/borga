@@ -16,6 +16,7 @@ gulp.task("concatScript", function() {
     return gulp.src([
             "assets/js/jquery-2.1.4.min.js",
             "assets/js/bootstrap.min.js",
+            "assets/js/tether.min.js",
             "assets/js/custom.js",
             "assets/js/smoothscroll.js",
         ])
