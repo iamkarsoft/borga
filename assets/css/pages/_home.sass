@@ -1,7 +1,7 @@
 #home-page
     .jumbotron , .jumbotron-fluid
         height: 100vh
-        background: url('../../img/bg-1.png') 50% 0 repeat-y fixed    
+        background: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../img/bg-1.png') 50% 0 repeat-y fixed    
         -webkit-background-size: cover
         background-size: cover
         background-position: center center
@@ -12,6 +12,7 @@
         align-items: center
         height: 100vh
         text-align: center
+        
 
         .text-shadow
             text-shadow: 3px 4px 7px $primary-color
@@ -33,3 +34,22 @@
             &:hover
                 background: $primary-color
                 border: 3px solid $primary-color
+
+        .btn-blue
+            background: $primary-color;
+            border: 3px solid $primary-color;
+            color: #ffffff;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding: 12px 40px;
+            margin-top: 44px;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+
+            &:hover
+                border: 3px solid $white
+                color: $white
+
+            
+    .card
+        min-height: 250px
