@@ -60,6 +60,24 @@
         <hr>
 <section class="row">
         <section class="col-md-6">
+        <script>
+      function initMap() {
+        
+        var uluru = {lat: 5.571823, lng: -0.211116};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAbB5f8BMikkRxlHuKhRs6SrME3MqBNmHU &callback=initMap">
+    </script>
+
             
         </section>
         
