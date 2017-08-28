@@ -290,6 +290,13 @@ a {
   background: #007BFF;
   color: #fff; }
 
+#gallery-page .jumbotron {
+  background: #007BFF;
+  color: #fff; }
+
+#gallery-page .card-inverse {
+  margin-bottom: 4%; }
+
 #contact-page .jumbotron {
   background: #007BFF;
   color: #fff; }
