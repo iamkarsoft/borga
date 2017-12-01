@@ -19,6 +19,7 @@ gulp.task("concatScript", function() {
             "assets/js/tether.min.js",
             "assets/js/wow.min.js",
             "assets/js/custom.js",
+            "assets/js/popper.min.js",
             "assets/js/smoothscroll.js",
         ])
         .pipe(concat("app.js"))
